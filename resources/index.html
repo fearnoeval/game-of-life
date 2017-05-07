@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Conway's Game of Life</title>
+    <style>
+      body {
+        background-color: #cfad88;
+        color: #3c2716;
+        font-family: monaco, "Ubuntu Mono", "Droid Sans Mono", Consolas, monospace;
+      }
+      div {
+        text-align: center;
+        width: 100%;
+      }
+      a:link {
+        color: #433cbd;
+        text-decoration: none;
+      }
+      a:visited {
+        color: #433cbd;
+        text-decoration: none;
+      }
+      a:hover {
+        color: #433cbd;
+        text-decoration: underline;
+      }
+      a:active {
+        color: #433cbd;
+        text-decoration: underline;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="description">
+      <h2>December 2015</h2>
+    </div>
+    <div id="canvas-container">
+      <canvas id="the-canvas" height="600" width="600"></canvas>
+      <br>
+      <button id="start-pause-resume">Start</button>
+      <button id="reset">Reset</button>
+      <button id="random">Use random board</button>
+    </div>
+    <noscript>This page requires JavaScript</noscript>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
